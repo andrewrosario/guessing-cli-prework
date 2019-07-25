@@ -2,9 +2,9 @@
 
 
 
-def run_guessing_game
-  number = rand(5) + 1 
+def run_guessing_game  
   puts "Guess a number between 1 and 6:"
+  number = rand(5) 
   input = gets.chomp
   if input == number
     puts "You guessed the correct number!"
