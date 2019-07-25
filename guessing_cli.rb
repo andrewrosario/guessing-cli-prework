@@ -1,16 +1,5 @@
 # Code your solution here!
 
-def generate_random_number
-  return rand(5)
-end
-
-def prompt_user
-  
-end
-
-def compare_guess(guess, number)
-
-end
 
 
 def run_guessing_game
