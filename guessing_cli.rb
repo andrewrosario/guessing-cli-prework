@@ -1,7 +1,7 @@
 # Code your solution here!
 
 def generate_random_number
-  return rand(5) + 1
+  return rand(5)
 end
 
 def prompt_user
@@ -24,5 +24,4 @@ def run_guessing_game
   prompt_user
   input = gets.chomp
   compare_guess(input, number)
-
 end
