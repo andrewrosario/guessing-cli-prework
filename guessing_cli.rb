@@ -7,9 +7,8 @@ def run_guessing_game
   number = rand(1..6)
   input = gets.chomp
   puts input.class
-  input = input.to_i
   puts number.class
-  if input == number
+  if input.to_i == number
     puts "You guessed the correct number!"
   elsif input == "exit"
     puts "Goodbye!"
