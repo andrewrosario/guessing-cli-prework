@@ -14,7 +14,7 @@ def compare_guess(guess, number)
   elsif guess == "exit"
     puts "Goodbye!"
   else
-    puts "Sorry! The computer guessed #{number}"
+    puts "The computer guessed #{number}"
   end
 end
 
