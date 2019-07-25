@@ -21,7 +21,6 @@ end
 
 def run_guessing_game
   number = generate_random_number
-  prompt_user
   input = gets.chomp
   compare_guess(input, number)
 end
